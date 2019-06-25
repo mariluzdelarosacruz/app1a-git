@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Datos de alumno</title>
+  
+  <!--grupo css-->
+  <link rel="stylesheet" href="css/temaapp1r.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+  
+<!-- grupo javascrip-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--scrip phonegap-->
+<script> src="phonegap.js"</script>
+</head>
+<body>
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Datos personales del alumno </h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1> Foto de perfil</h1>
+<div>
+<p> Esta es mi imagen de perfil: </p>
+<br>
+</div>
+<div>
+<img src="imagenes/fotodeperfil.png" width="50%" height="50%"></div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Datos generales</h2>
+<p>Se muestra el nombre</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fecha de Nacimieno</h2>
+<p>Se muestra dia, mes y año de nacimiento</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Domicilio</h2>
+<p>Muestra el domicilio del alumno</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Deporte Favorito</h2>
+<p>Muestra el deporte que mas le agrade al alumno</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Otros gustos o intereces</h2>
+<p>Muestra otros gustos del alumno</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<div>
+<h4>Aplicacion Uno</h4>
+<h4>Luz Maria Cruz de la Rosa</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Nombre</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Cruz de la Rosa Luz Maria </h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion Uno, LMCR</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>FECHA DE NACIMIENTO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> 10 DE Octubre de 2000 </h2>
+<img src="imagenes/signozodiacal.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion Uno, LMCR</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DOMICILIO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> CALLE FRANCIASCO I MADERO #3707 COLONIA VALLE SUR </h2>
+<img src="imagenes/domicilio.png" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion Uno, LMCR</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DEPORTE</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> NATACION </h2>
+<img src="imagenes/deporte.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion Uno, LMCR</h4>
+</div>
+</div>
+ 
+ 
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Otros gustos o intereces</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> Ver el atardecer </h2>
+<h2> ver peliculas </h2>
+<img src="imagenes/atardecer.jpg" width="50%" height="50%">
+<br>
+<img src="imagenes/pelicula.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/persona_rosa.png" width="46" height="46">
+</div>
+<h4>Aplicacion Uno, LMCR</h4>
+</div>
+</body>
+</html>
